@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/func-plugin" name="func-plugin">
+                <projects>
+                  <project path="$PROJECT_DIR$/func-plugin" />
+                  <project path="$PROJECT_DIR$/func-plugin/internal" />
+                  <project path="$PROJECT_DIR$/func-plugin/internal/base" />
+                  <project path="$PROJECT_DIR$/func-plugin/internal/integration" />
+                  <project path="$PROJECT_DIR$/func-plugin/internal/library" />
+                  <project path="$PROJECT_DIR$/func-plugin/internal/module" />
+                  <project path="$PROJECT_DIR$/func-plugin/my_build" />
+                  <project path="$PROJECT_DIR$/func-plugin/my_build/checker" />
+                  <project path="$PROJECT_DIR$/func-plugin/my_build/versions" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="#GRADLE_LOCAL_JAVA_HOME" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/Handler" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/func-plugin" />
+            <option value="$PROJECT_DIR$/func-plugin/internal" />
+            <option value="$PROJECT_DIR$/func-plugin/internal/base" />
+            <option value="$PROJECT_DIR$/func-plugin/internal/integration" />
+            <option value="$PROJECT_DIR$/func-plugin/internal/library" />
+            <option value="$PROJECT_DIR$/func-plugin/internal/module" />
+            <option value="$PROJECT_DIR$/func-plugin/my_build" />
+            <option value="$PROJECT_DIR$/func-plugin/my_build/checker" />
+            <option value="$PROJECT_DIR$/func-plugin/my_build/versions" />
+          </set>
+        </option>
+        <option name="resolveExternalAnnotations" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

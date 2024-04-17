@@ -1,6 +1,5 @@
 @file:Suppress("UnstableApiUsage")
 
-include(":Handler")
 
 pluginManagement {
   includeBuild("func-plugin")

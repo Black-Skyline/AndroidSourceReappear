@@ -13,7 +13,7 @@ class ModuleMiddlewareManagerPlugin: BasePlugin() {
   override fun PluginScope.configure() {
     val projectName: String = project.name
     val pluginId = when {
-      projectName == "app" -> "app" // 后续实现app模块的脚本依赖管理插件
+      projectName == "app" -> "app"
       projectName == "Handler" -> "internal.module.middleware"
       projectName.startsWith("module_") -> "internal.module.middleware"
       projectName.startsWith("lib_") -> "internal.library.common"

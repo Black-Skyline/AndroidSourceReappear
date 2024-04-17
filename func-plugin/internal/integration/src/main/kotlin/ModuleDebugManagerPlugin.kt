@@ -30,7 +30,7 @@ class ModuleDebugManagerPlugin: BasePlugin() {
               || it == "cacheToLocalMaven"
               || it == "channelRelease"
               || it == "channelDebug"
-    } && !name.startsWith("api_") && !name.startsWith("lib_") // api 模块、lib 模块不开启
+    } && !name.startsWith("api_") && !name.startsWith("lib_") && name != "app"// api 模块、lib 模块与 app模块 不开启
   }
 
   /**

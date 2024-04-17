@@ -38,7 +38,7 @@ class ModuleDebugPlugin : BasePlugin() {
         buildConfig = true
       }
     }
-    // 待完善细节后回复使用
+    // 待完善细节后恢复使用
     // passOnApiImplDepend(project, project, hashSetOf(), hashSetOf())
 
 

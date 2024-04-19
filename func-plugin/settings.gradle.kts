@@ -35,6 +35,7 @@ rootProject.name = "func-plugin"
 
 // 基础的 内部 插件
 include(":internal")
+include(":internal:app")
 include(":internal:base")
 include(":internal:library")
 include(":internal:module")

@@ -16,10 +16,10 @@ object Android {
 
   // 官方控件库
   const val constraintlayout = "androidx.constraintlayout:constraintlayout:2.1.4"
-  const val recyclerview = "androidx.recyclerview:recyclerview:1.3.0"
+  const val recyclerview = "androidx.recyclerview:recyclerview:1.3.1"
   const val cardview = "androidx.cardview:cardview:1.0.0"
   const val viewpager2 = "androidx.viewpager2:viewpager2:1.0.0"
-  const val material = "com.google.android.material:material:1.8.0"
+  const val material = "com.google.android.material:material:1.9.0"
   const val swiperefreshlayout = "androidx.swiperefreshlayout:swiperefreshlayout:1.1.0"
   const val flexbox = "com.google.android.flexbox:flexbox:3.0.0"
 
@@ -31,7 +31,7 @@ object Android {
   const val collection_ktx = "androidx.collection:collection-ktx:1.2.0"
 
   // https://developer.android.google.cn/kotlin/ktx/extensions-list#androidxfragmentapp
-  const val fragment_ktx = "androidx.fragment:fragment-ktx:1.5.7"
+  const val fragment_ktx = "androidx.fragment:fragment-ktx:1.6.1"
 
   // https://developer.android.google.cn/kotlin/ktx/extensions-list#androidxactivity
   const val activity_ktx = "androidx.activity:activity-ktx:1.7.2"

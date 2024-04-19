@@ -95,11 +95,10 @@ internal class BaseLibraryPlugin: BasePlugin() {
         buildConfig = true
         // dataBinding 和 viewBinding 按需开启，请使用 useDataBinding() 方法
       }
-
-      // kotlin 闭包
-      extensions.configure<KotlinAndroidProjectExtension> {
-        jvmToolchain(libsVersion("kotlinJvmTarget").requiredVersion.toInt())
-      }
+    }
+    // kotlin 闭包
+    extensions.configure<KotlinAndroidProjectExtension> {
+      jvmToolchain(libsVersion("kotlinJvmTarget").requiredVersion.toInt())
     }
   }
 }

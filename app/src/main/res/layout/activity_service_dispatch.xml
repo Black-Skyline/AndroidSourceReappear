@@ -4,15 +4,25 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.MainActivity"
-    tools:ignore="ResourceName">
+    tools:context=".activity.ServiceDispatchActivity">
 
-    <TextView
-        android:id="@+id/tv_main_activity_hint"
+    <ImageButton
+        android:id="@+id/btn_click_control"
+        android:layout_width="85dp"
+        android:layout_height="85dp"
+        android:layout_marginBottom="20dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_click_play"
+        app:layout_constraintBottom_toTopOf="@+id/btn_start_music"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btn_start_music"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="this is MainActivity"
-        android:textSize="24sp"
+        android:text="启动 MusicService"
+        android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,20 +30,15 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_main_activity_goto"
+        android:id="@+id/btn_start_download"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to OtherActivity"
+        android:layout_marginTop="20dp"
+        android:text="启动 DownloadService"
+        android:textSize="18sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_main_activity_hint" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_start_music" />
 
-    <Button
-        android:id="@+id/btn_main_send_broadcast"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="发送显式广播"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_main_activity_goto" />
 </androidx.constraintlayout.widget.ConstraintLayout>

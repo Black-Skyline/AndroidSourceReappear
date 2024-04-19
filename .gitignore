@@ -17,6 +17,7 @@ local.properties
 maven
 
 # Project exclude paths
+/func-plugin/internal/app/build/
 /func-plugin/internal/base/build/
 /func-plugin/internal/base/build/classes/kotlin/main/
 /func-plugin/internal/integration/build/

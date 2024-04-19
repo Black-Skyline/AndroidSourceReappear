@@ -4,14 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity.MainActivity"
+    tools:context=".activity.OtherActivity"
     tools:ignore="ResourceName">
 
     <TextView
-        android:id="@+id/tv_main_activity_hint"
+        android:id="@+id/tv_other_activity_hint"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="this is MainActivity"
+        android:text="this is AnotherActivity"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -20,20 +20,20 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/btn_main_activity_goto"
+        android:id="@+id/btn_other_activity_goto1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go to OtherActivity"
+        android:text="Go to FragmentContainerActivity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tv_main_activity_hint" />
+        app:layout_constraintTop_toBottomOf="@+id/tv_other_activity_hint" />
 
     <Button
-        android:id="@+id/btn_main_send_broadcast"
+        android:id="@+id/btn_other_activity_goto2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="发送显式广播"
+        android:text="Go to ServiceDispatchActivity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btn_main_activity_goto" />
+        app:layout_constraintTop_toBottomOf="@+id/btn_other_activity_goto1" />
 </androidx.constraintlayout.widget.ConstraintLayout>

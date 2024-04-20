@@ -5,7 +5,6 @@ import android.content.res.Configuration
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
-import com.study.androidsourcereappear.R
 import com.study.androidsourcereappear.databinding.ActivityOtherBinding
 
 class OtherActivity : AppCompatActivity() {

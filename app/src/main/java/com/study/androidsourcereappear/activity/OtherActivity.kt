@@ -35,12 +35,12 @@ class OtherActivity : AppCompatActivity() {
   override fun onStart() {
     super.onStart()
     Log.d(className, "onStart: begin")
-    try {
-      /// 设置一个启动延时，拉长 onStart() 的回调耗时
-      Thread.sleep(10000)
-    } catch (e: InterruptedException) {
-      Log.d(className, "onStartError: ${e.message}")
-    }
+//    try {
+//      /// 设置一个启动延时，拉长 onStart() 的回调耗时
+//      Thread.sleep(10000)
+//    } catch (e: InterruptedException) {
+//      Log.d(className, "onStartError: ${e.message}")
+//    }
 
     Log.d(className, "onStart: finished")
   }
